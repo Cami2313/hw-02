@@ -1,0 +1,20 @@
+TypeScript
+TypeScript es un superconjunto del famoso JavaScript, este lenguaje se caracteriza por manejar 
+diferentes tipos de datos. Es un lenguaje escalable y seguro, debido a que se puede ir 
+verificando la ejecución de su código.
+- TypeScript sí que es un lenguaje estático, de forma que sí hay una división en los tipos de 
+datos. Existen 3 categorías de los tipos de datos de TypeScript:
+Cualquiera: Esto significa que una variable puede ser cualquier tipo de dato.
+Integrado: En este sentido, vemos las variables de número, booleano, cadena, nulo,
+vacío e indefinido.
+Definido por el usuario: Aquí se incluyen enumeración, matriz, interfaz y clase.
+- TypeScript admite las bibliotecas de JavaScript. De hecho, los desarrolladores pueden emplear
+también los mismos marcos y herramientas de JavaScript.
+- No es un código dinámico, de modo que este tipo de escritura favorece una mejora en la 
+estructura de código y en las técnicas de programación orientadas a objetos.
+
+Diferencias:
+- TypeScript dispone de una escritura estática, mientras que JavaScript es un lenguaje dinámico.
+- JavaScript no admite módulos, mientras que TypeScript sí que les da soporte.
+- TypeScript dispone de interfaz, mientras que JavaScript no.
+En TypeScript sí que hay que compilar el código, en JavaScript no es necesario.

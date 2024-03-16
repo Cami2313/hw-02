@@ -1,0 +1,23 @@
+Template String
+--> console.log(`The sum of values (${numberA}, ${numberB}) is: ${result}`);
+Los template strings o plantillas literales (` `) son cadenas literales que 
+habilitan el uso de expresiones incrustadas. 
+Podemos mencionar como sus características más importantes el utilizar cadenas de 
+caracteres de más de una línea, y funcionalidades de interpolación de cadenas de caracteres.
+
+- Los template strings nos permite realizar cadenas de más de una línea,
+utilizando la sintaxis de comillas dobles tendríamos que hacer lo siguiente:
+--> console.log("línea 1 de cadena de texto\n" + "línea 2 de cadena de texto");
+Mientras que con los template strings obtenemos el mismo resultado con una sintaxis más simple.
+--> console.log(`línea 1 de la cadena de texto
+línea 2 de la cadena de texto`);
+
+- Los template strings nos permiten la interpolación de expresiones. 
+En este caso se pueden utilizar sus nuevas capacidades (insertar expresiones con ${ } e
+incluir caracteres de fin de línea literales dentro de la cadena) para simplificar la sintaxis:
+let a = 5;
+let b = 10;
+--> console.log(`Quince es ${a + b} y no ${2 * a + b}.`);
+De no utilizar los template strings tendríamos que realizar una 
+sintaxis un poco más larga para tener el mismo resultado.
+--> console.log("Quince es " + (a + b) + " y no " + (2 * a + b) + ".");
